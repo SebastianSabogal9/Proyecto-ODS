@@ -1,0 +1,31 @@
+   body {
+            background-color: #003366;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        .img-centro-pequena {
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+ .img-principal {
+    width: 400px;
+    height: auto;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.img-centro-grande {
+    text-align: center;
+    margin-top: 40px; 
+    margin-bottom: 20px;
+}
+
+.img-centro-grande.img-principal {
+    width: 150px;
+    max-width: 75%; 
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);}

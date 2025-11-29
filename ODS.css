@@ -1,0 +1,102 @@
+ .ODS-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+        }
+
+        .ODS-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .ODS-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .ODS-item {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 12px;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        
+        .ODS7-box {
+    max-width: 1000px;
+    margin: 60px auto;
+    background: #3498db; /* azul claro */
+    padding: 28px 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(2,48,71,0.08);
+    text-align: center;
+    color: #000000;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+.ODS7-box p {
+    margin: 0;
+}
+
+.ODS7-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #000000;
+    padding: 40px 20px 80px;
+}
+
+
+.ODS7-page .ODS7-box {
+    background: rgba(230,247,255,0.95);
+}
+
+
+
+.ODS7-titulo {
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: 60px;
+    background: #3498db;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+     text-align: center;
+    padding: 20px;
+}
+
+.ODS7-boxtitle {
+    max-width: 1000px;
+    margin: 60px auto;
+    background: #3498db;
+    padding: 28px 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(2,48,71,0.08);
+    text-align: center;
+    color: #000000;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+.ODS7-boxlista {
+    max-width: 1000px;
+    margin: 60px auto;
+    background: #3498db;
+    padding: 28px 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(2,48,71,0.08);
+    text-align: left;
+    color: #000000;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+.ODS-item:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+}
